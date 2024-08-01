@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 10:08:16 &#214;S"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTAxOzA5OjU4OjE1IMOWUzsyNzU3"/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTAxOzEwOjA4OjE2IMOWUzszOzI4NTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1, sayi2" type="Integer" array="False" size=""/>
+            <output expression="&quot;birinci sayi&quot;" newline="True"/>
+            <input variable="sayi1"/>
+            <output expression="&quot;ikinci sayi&quot;" newline="True"/>
+            <input variable="sayi2"/>
+            <if expression="sayi1&gt;sayi2">
+                <then>
+                    <output expression="&quot;girilen &quot;&amp;sayi1 &amp;&quot; &quot;&amp;sayi2 &amp; &quot; den buyuktur&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="sayi1=sayi2">
+                        <then>
+                            <output expression="&quot;girilen &quot;&amp;sayi1 &amp;&quot; &quot;&amp;sayi2 &amp; &quot; esittir&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;girilen &quot;&amp;sayi2 &amp;&quot; &quot;&amp;sayi1 &amp; &quot; den buyuktur&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
