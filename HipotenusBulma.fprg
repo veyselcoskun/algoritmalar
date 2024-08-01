@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 09:52:59 &#214;S"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTAxOzA5OjMxOjQyIMOWUzsyNzQ4"/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTAxOzA5OjUyOjU5IMOWUzs2OzI4NzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kenar1, kenar2, hipotenus" type="Real" array="False" size=""/>
+            <output expression="&quot;kenar 1 giriniz&quot;" newline="True"/>
+            <input variable="kenar1"/>
+            <output expression="&quot;kenar 2 giriniz&quot;" newline="True"/>
+            <input variable="kenar2"/>
+            <assign variable="hipotenus" expression="sqrt(kenar1^2+kenar2^2)"/>
+            <output expression="&quot;Girilen sayinin hipoten&#252;s&#252;:&quot; &amp;hipotenus" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

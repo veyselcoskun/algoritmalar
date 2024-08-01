@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 09:37:13 &#214;S"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTAxOzA5OjMxOjQyIMOWUzsyNzQ4"/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTAxOzA5OjM3OjEzIMOWUzsyOzI4NjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, karekok" type="Real" array="False" size=""/>
+            <output expression="&quot;Sayi giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <assign variable="karekok" expression="sqrt(sayi)"/>
+            <output expression="&quot;Girilen sayinin karekoku:&quot;&amp;karekok" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
