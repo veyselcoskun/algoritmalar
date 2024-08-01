@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 08:33:28 &#214;S"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTAxOzA3OjE2OjA1IMOWUzsyNzQ4"/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTAxOzA4OjMzOjI4IMOWUzs3OzI4Njc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kenar1" type="Real" array="False" size=""/>
+            <declare name="kenar2" type="Real" array="False" size=""/>
+            <declare name="alantoplam" type="Real" array="False" size=""/>
+            <declare name="cevretoplam" type="Real" array="False" size=""/>
+            <output expression="&quot;birinci kenar gir&quot;" newline="True"/>
+            <input variable="kenar1"/>
+            <output expression="&quot;ikinci kebar gir&quot;" newline="True"/>
+            <input variable="kenar2"/>
+            <assign variable="alantoplam" expression="kenar1*kenar2"/>
+            <output expression="&quot;toplam alan:&quot;&amp;alantoplam" newline="True"/>
+            <assign variable="cevretoplam" expression="2*(kenar1+kenar2)"/>
+            <output expression="&quot;toplam cevre:&quot;&amp;cevretoplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

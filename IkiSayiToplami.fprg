@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 08:07:56 &#214;S"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTAxOzA3OjE2OjA1IMOWUzsyNzQ4"/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTAxOzA4OjA3OjU2IMOWUzsyOzI4NjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1" type="Integer" array="False" size=""/>
+            <declare name="sayi2" type="Integer" array="False" size=""/>
+            <declare name="Toplam" type="Integer" array="False" size=""/>
+            <output expression="&quot;birici sayiyi gir&quot;" newline="True"/>
+            <input variable="sayi1"/>
+            <output expression="&quot;ikinci sayiyi gir&quot;" newline="True"/>
+            <input variable="sayi2"/>
+            <assign variable="Toplam" expression="sayi1+sayi2"/>
+            <output expression="&quot;Toplam :&quot; &amp;Toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 08:44:42 &#214;S"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTAxOzA3OjE2OjA1IMOWUzsyNzQ4"/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTAxOzA4OjQ0OjQyIMOWUzs2OzI4NjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1" type="Real" array="False" size=""/>
+            <declare name="Toplam" type="Real" array="False" size=""/>
+            <output expression="&quot;birici sayiyi gir&quot;" newline="True"/>
+            <input variable="sayi1"/>
+            <assign variable="Toplam" expression="sayi1*0.2"/>
+            <output expression="&quot;Toplam kdv :&quot; &amp;Toplam" newline="True"/>
+            <assign variable="toplam" expression="toplam+sayi1"/>
+            <output expression="&quot;kdv li fiyat:&quot;&amp;toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
