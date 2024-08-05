@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 10:21:45 &#214;S"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTAxOzA5OjU4OjE1IMOWUzsyNzU3"/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTAxOzEwOjIxOjQ1IMOWUzs2OzI4NTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sicaklik" type="Real" array="False" size=""/>
+            <output expression="&quot;sicaklik nedir?&quot;" newline="True"/>
+            <input variable="sicaklik"/>
+            <if expression="sicaklik&lt;0">
+                <then>
+                    <output expression="&quot;kat&#305;d&#305;r&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="sicaklik&lt;99">
+                        <then>
+                            <output expression="&quot;s&#305;v&#305;d&#305;r&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;gaz halindedir&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
