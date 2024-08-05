@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="BRIGHT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 02:32:00 &#214;&#214;"/>
+        <attribute name="created" value="QlJJR0hUO0RFU0tUT1AtTEhWNUZKMjsyMDI0LTA4LTAzOzAyOjMyOjIxIMOWUzsyOTI1"/>
+        <attribute name="edited" value="QlJJR0hUO0RFU0tUT1AtTEhWNUZKMjsyMDI0LTA4LTAzOzAyOjQwOjM3IMOWUzsxOzMwMzk="/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzAyOjMyOjAwIMOWw5Y7MTsyOTgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, sayac, toplam" type="Integer" array="False" size=""/>
+            <assign variable="sayac" expression="1"/>
+            <assign variable="toplam" expression="0"/>
+            <do expression="sayac&lt;&gt;0">
+                <output expression="&quot;Sayi Giriniz&quot;" newline="True"/>
+                <input variable="sayi"/>
+                <if expression="sayi=0">
+                    <then>
+                        <assign variable="sayac" expression="0"/>
+                    </then>
+                    <else>
+                        <assign variable="toplam" expression="toplam+sayi"/>
+                    </else>
+                </if>
+            </do>
+            <output expression="&quot;Girilen Sayilarin Toplami :&quot; &amp;toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
