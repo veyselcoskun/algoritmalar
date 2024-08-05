@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 01:56:04 &#214;&#214;"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzAxOjUxOjE3IMOWw5Y7Mjg4MA=="/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzAxOjU2OjA0IMOWw5Y7MTsyOTg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayac" type="Integer" array="False" size=""/>
+            <assign variable="sayac" expression="1"/>
+            <while expression="sayac&lt;500">
+                <if expression="sayac%3=0 &amp;&amp; sayac%5=0 &amp;&amp; sayac%7=0">
+                    <then>
+                        <output expression="&quot;bulunan sayi &quot;&amp;sayac" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="sayac" expression="sayac+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
