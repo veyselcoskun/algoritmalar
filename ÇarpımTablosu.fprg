@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 08:29:27 &#214;S"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzA4OjA5OjUxIMOWUzsyNzU3"/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzA4OjA5OjU5IMOWUzsxO3ZleXNlbDtWRVlTRUwtUEM7MjAyNC0wOC0wNjswNzoyNzoyMyDDllM7Rmlib25hY2NpRWxlbWFuU2F5aXNpLmZwcmc7ODMzNw=="/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzA4OjI5OjI3IMOWUzsyOzI4NzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, j" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="9" direction="inc" step="1">
+                <for variable="j" start="1" end="9" direction="inc" step="1">
+                    <output expression="i &amp;&quot;x&quot; &amp;j &amp;&quot;=&quot;&amp;(i*j)" newline="True"/>
+                </for>
+                <output expression="&quot;*******************************************&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

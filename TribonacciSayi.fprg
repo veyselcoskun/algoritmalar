@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 08:44:06 &#214;S"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzA4OjM4OjM0IMOWUzsyNzYw"/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzA4OjQ0OjA2IMOWUzsxOzI4NjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="deger1, deger2, deger3, deger4, sayac, elemansayisi" type="Integer" array="False" size=""/>
+            <assign variable="elemansayisi" expression="20"/>
+            <assign variable="deger1" expression="1"/>
+            <assign variable="deger2" expression="1"/>
+            <assign variable="deger3" expression="deger1+deger2"/>
+            <output expression="deger1" newline="True"/>
+            <output expression="deger2" newline="True"/>
+            <output expression="deger3" newline="True"/>
+            <for variable="sayac" start="3" end="20" direction="inc" step="1">
+                <assign variable="deger4" expression="deger1+deger2+deger3"/>
+                <output expression="deger4" newline="True"/>
+                <assign variable="deger1" expression="deger2"/>
+                <assign variable="deger2" expression="deger3"/>
+                <assign variable="deger3" expression="deger4"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
