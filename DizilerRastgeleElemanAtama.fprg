@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 03:56:58 &#214;&#214;"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzAzOjU0OjEzIMOWw5Y7Mjg4MQ=="/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzAzOjU0OjE2IMOWw5Y7MTt2ZXlzZWw7VkVZU0VMLVBDOzIwMjQtMDgtMDY7MDM6NDQ6Mzkgw5bDljtEaXppbGVyR2lyacWfLmZwcmc7Nzk0NA=="/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzAzOjU2OjU4IMOWw5Y7MzszMDAy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayac, elemansayisi" type="Integer" array="False" size=""/>
+            <output expression="&quot;dizinin eleman say&#305;s&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="elemansayisi"/>
+            <declare name="sayilar" type="Integer" array="True" size="elemansayisi"/>
+            <for variable="sayac" start="0" end="elemansayisi-1" direction="inc" step="1">
+                <assign variable="sayilar[sayac]" expression="random(100)+1"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
