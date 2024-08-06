@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 03:32:10 &#214;&#214;"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzAzOjI4OjA5IMOWw5Y7Mjg4Nw=="/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzAzOjMyOjEwIMOWw5Y7MjsyOTgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, faktoriyel, sayac" type="Real" array="False" size=""/>
+            <assign variable="faktoriyel" expression="1"/>
+            <output expression="&quot;sayi giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <for variable="sayac" start="sayi" end="1" direction="dec" step="1">
+                <assign variable="faktoriyel" expression="faktoriyel*sayac"/>
+            </for>
+            <output expression="&quot;girilen &quot; &amp; sayi &amp; &quot; faktoriyeli &quot; &amp;faktoriyel" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
