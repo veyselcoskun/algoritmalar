@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 09:07:24 &#214;S"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzA3OjI3OjIzIMOWUzsyNzU1"/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzA5OjA3OjI0IMOWUzs0OzI4Njc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="oncekideger, sonrakideger, elemansayisi, bulundugudeger, sayac" type="Integer" array="False" size=""/>
+            <assign variable="elemansayisi" expression="20"/>
+            <assign variable="oncekideger" expression="1"/>
+            <assign variable="bulundugudeger" expression="1"/>
+            <assign variable="sonrakideger" expression="oncekideger+bulundugudeger"/>
+            <output expression="&quot;fibanocci &quot; &amp;oncekideger" newline="True"/>
+            <output expression="&quot;fibanocci &quot; &amp;sonrakideger" newline="True"/>
+            <for variable="sayac" start="3" end="20" direction="inc" step="1">
+                <assign variable="sonrakideger" expression="oncekideger+bulundugudeger"/>
+                <output expression="&quot;sonraki fibanocci (&quot;&amp;sonrakideger&amp;&quot;)&quot;&amp;sonrakideger" newline="True"/>
+                <output expression="&quot;oran:&quot;&amp;sonrakideger/bulundugudeger" newline="True"/>
+                <assign variable="oncekideger" expression="bulundugudeger"/>
+                <assign variable="bulundugudeger" expression="sonrakideger"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
