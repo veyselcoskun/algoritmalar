@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 04:08:33 &#214;&#214;"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzA0OjAwOjQ1IMOWw5Y7Mjg3OA=="/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzA0OjAwOjQ5IMOWw5Y7MTt2ZXlzZWw7VkVZU0VMLVBDOzIwMjQtMDgtMDY7MDM6NTQ6MTMgw5bDljtEaXppbGVyUmFzdGdlbGVFbGVtYW5BdGFtYS5mcHJnOzkwOTA="/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzA0OjA4OjMzIMOWw5Y7MjsyOTky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayac, elemansayisi, toplam" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <output expression="&quot;dizinin eleman say&#305;s&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="elemansayisi"/>
+            <declare name="sayilar" type="Integer" array="True" size="elemansayisi"/>
+            <for variable="sayac" start="0" end="elemansayisi-1" direction="inc" step="1">
+                <assign variable="sayilar[sayac]" expression="random(100)+1"/>
+            </for>
+            <for variable="sayac" start="0" end="elemansayisi-1" direction="inc" step="1">
+                <assign variable="toplam" expression="toplam+sayilar[sayac]"/>
+            </for>
+            <output expression="&quot;ortalama:&quot; &amp;(toplam/elemansayisi)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

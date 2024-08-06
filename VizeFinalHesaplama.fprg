@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 12:03:24 &#214;&#214;"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA1OzExOjM2OjA0IMOWUzsyNzQ4"/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzEyOjAzOjI0IMOWw5Y7MjsyOTg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vize, vize1, final, ortalama, genelortalama" type="Real" array="False" size=""/>
+            <output expression="&quot;vize1 giriniz&quot;" newline="True"/>
+            <input variable="vize1"/>
+            <output expression="&quot;vize giriniz&quot;" newline="True"/>
+            <input variable="vize"/>
+            <output expression="&quot;final giriniz&quot;" newline="True"/>
+            <input variable="final"/>
+            <assign variable="ortalama" expression="(vize+vize1)/2"/>
+            <assign variable="genelortalama" expression="(ortalama*0.30)+(final*0.70)"/>
+            <output expression="&quot;vize ortalama=&quot;&amp;ortalama" newline="True"/>
+            <output expression="&quot;genel ortalama=&quot;&amp;genelortalama" newline="True"/>
+            <if expression="genelortalama&gt;=50">
+                <then>
+                    <output expression="&quot;ge&#231;tin&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;kald&#305;n&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

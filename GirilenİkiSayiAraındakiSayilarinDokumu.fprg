@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="veysel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 03:40:07 &#214;&#214;"/>
+        <attribute name="created" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzAzOjMzOjE3IMOWw5Y7Mjg4Mg=="/>
+        <attribute name="edited" value="dmV5c2VsO1ZFWVNFTC1QQzsyMDI0LTA4LTA2OzAzOjQwOjA3IMOWw5Y7MTsyOTg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1, sayi2, sayac" type="Real" array="False" size=""/>
+            <output expression="&quot;sayi1 i gir&quot;" newline="True"/>
+            <input variable="sayi1"/>
+            <output expression="&quot;sayi2 yi gir&quot;" newline="True"/>
+            <input variable="sayi2"/>
+            <if expression="sayi1&gt;sayi2">
+                <then>
+                    <for variable="sayac" start="sayi2+1" end="sayi1-1" direction="inc" step="1">
+                        <output expression="&quot;sayi &quot;&amp;sayac" newline="True"/>
+                    </for>
+                </then>
+                <else>
+                    <for variable="sayac" start="sayi1+1" end="sayi2-1" direction="inc" step="1">
+                        <output expression="&quot;sayi &quot;&amp;sayac" newline="True"/>
+                    </for>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
